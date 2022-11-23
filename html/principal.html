@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- <link rel="stylesheet" type="text/css" href="../css/principal.css" media="screen"/> -->
+
+    <title></title>
+</head>
+
+<body>
+
+
+    <header class="container mb-4">
+        <div class="row">
+            <h1 class="col-12 text-right">Mascotas</h1>
+            <a class="col-12 text-right nav-link text-dark pt-0 h4" href="../index.html">Inicio</a>
+        </div>
+    </header>
+
+    <section class="container py-2 mb-4 border border-dark">
+        <div class="row">
+            <div class="col-12 row">
+                <div class="col-5">
+                    <label for="nombrePersona">Nombre: </label>
+                </div>
+                <div class="col-5">
+                    <label id="nombrePersona" name="nombrePersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for="ciudadPersona">Ciudad: </label>
+                </div>
+                <div class="col-5">
+                    <label id="ciudadPersona" name="ciudadPersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for="celularPersona">Celular: </label>
+                </div>
+                <div class="col-5">
+                    <label id="celularPersona" name="celularPersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for="fijoPersona">Fijo: </label>
+                </div>
+                <div class="col-5">
+                    <label id="fijoPersona" name="fijoPersona" class="form-control"></label>
+                </div>
+                
+                <div class="col-5">
+                    <label for="nacimientoPersona">Fecha Nacimiento: </label>
+                </div>
+                <div class="col-5">
+                    <label id="nacimientoPersona" name="nacimientoPersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for=civilPersona">Estado Civil: </label>
+                </div>
+                <div class="col-5">
+                    <label id=civilPersona" name=civilPersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for="hijosPersona">Hijos: </label>
+                </div>
+                <div class="col-5">
+                    <label id="hijosPersona" name="hijosPersona" class="form-control"></label>
+                </div>
+
+                <div class="col-5">
+                    <label for="macotaPersona">Mascotas: </label>
+                </div>
+                <div class="col-5">
+                    <label id="macotaPersona" name="macotaPersona" class="form-control"></label>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="d-flex justify-content-center row mb-5" id="contenedorMascota">
+
+    </section>
+
+    <section class="container">
+
+        <table id="dtableMascota" class="table table-hover table-shopping table-sm table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th width="10%" scope="col">Mascota</th>
+                    <th width="40%" scope="col">Nombre Mascota</th>
+                    <th width="50%" scope="col">Imagen</th>
+                </tr>
+            </thead>
+            <tbody id="bodyMascota"></tbody>
+        </table>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/principal.js"></script>
+</body>
+
+</html>
